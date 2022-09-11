@@ -79,6 +79,5 @@ Plugin 'tomtom/tcomment_vim'
 
 call vundle#end()
 
-"clipboard
 
 

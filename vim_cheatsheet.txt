@@ -1,0 +1,58 @@
+Splits:
+    horizontal: cntl-w + v
+    vertical: cntl-w + s
+    horizontal terminal: $term
+    vertical terminal: $vert term
+    left, right, up, down: h, l, k, j
+    toggle split: cntl-w + cntl-w
+    rotate split: cntl-w + r
+    resize: resize +/- (number of lines)
+    open file system in split: $Sex
+
+Tabs:
+    file tab: $tabe.
+    move tab: $tabmove (number)
+    terminal tab: $tab term
+    next tab: g + t
+    prev tab: g + T
+
+Search:
+    search: $/yourkeyword + enter
+    next result: n
+    prev result: N
+Terminal:
+    view perv: cntl-w + N
+    enter cmd: i
+    quit: exit
+
+Undo/Redo:
+    undo: u
+    redu: cntl-r
+    execute last cmd: $.
+
+Normal mode:
+    next word: w
+    prev word: b
+    jump to eow: e
+    jump to bol: 0
+    jump to eol: $
+    jump to begin: gg
+    jump to end: G
+    center line: zz
+    jump to line: G(line number)
+
+Insert mode:
+    enter: i
+    enter at new line: o
+    enter at prev line:O
+    enter at eol: A
+
+Visual mode:
+    visual mode: v
+    line visual mode: shift+v
+    copy line: yy
+    paste: p
+    paste above: P
+    comment: gc
+    indent: >>
+    auto indent: ==

@@ -26,7 +26,7 @@ set ruler
 set so=7
 set cursorline
 set number
-set relativenumber
+"set relativenumber
 hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
 hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 

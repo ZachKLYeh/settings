@@ -20,6 +20,7 @@ Search:
     search: $/yourkeyword + enter
     next result: n
     prev result: N
+
 Terminal:
     view perv: cntl-w + N
     enter cmd: i
@@ -56,3 +57,10 @@ Visual mode:
     comment: gc
     indent: >>
     auto indent: ==
+
+Nerd tree:
+    show hidden file: shift+i
+    refresh: r or R
+
+Auto Complete:
+    ctrl+n or ctrl+p in insert mode

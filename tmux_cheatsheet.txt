@@ -1,0 +1,21 @@
+Enter tmux:
+    $ tmux
+
+Pane in a window:
+    vertical pane: cntl+b %
+    horizontal pane: cntl+b "
+    switch pane: cntl+b up/down/left/right
+    close split: $ exit
+
+Manage windows:
+    new window: cntl+b c
+    switch window: cntl+b numberofshell
+    rename window: cntl+b ,
+
+Session:
+    detach: cntl+b d
+    view sessions: tmux ls
+    attach: tmux attach -t numberofsession
+    rename sessions: tmux rename-session -t 0 newname
+    enter with session: tmux new -s sessionname
+    kill: tmux kill-session -t sessionname

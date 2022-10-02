@@ -61,6 +61,11 @@ Visual mode:
 Nerd tree:
     show hidden file: shift+i
     refresh: r or R
+    back to nerdtree: e.
 
 Auto Complete:
     ctrl+n or ctrl+p in insert mode
+
+Plugin:
+    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    PluginInstall

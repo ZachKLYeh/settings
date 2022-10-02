@@ -28,7 +28,7 @@ set cursorline
 set number
 "set relativenumber
 hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
-hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
+hi CursorLineNr cterm=bold ctermfg=Black ctermbg=NONE
 
 "speedup
 set timeoutlen=1000
@@ -47,9 +47,6 @@ inoremap [ []<Esc>i
 inoremap {<CR> {<CR>}<Esc>ko
 inoremap {{ {}<ESC>i
 inoremap {<CR> {<CR>}<Esc>ko
-
-hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
-hi CursorLineNr cterm=bold ctermfg=Green ctermbg=NONE
 
 "language
 set langmenu=en_US.UTF-8
@@ -79,5 +76,6 @@ Plugin 'tomtom/tcomment_vim'
 
 call vundle#end()
 
-
+"statusbar
+set laststatus=2
 

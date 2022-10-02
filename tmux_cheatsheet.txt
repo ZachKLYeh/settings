@@ -1,3 +1,6 @@
+Congit file:
+    .tmux.conf
+
 Enter tmux:
     $ tmux
 
@@ -5,7 +8,8 @@ Pane in a window:
     vertical pane: cntl+b %
     horizontal pane: cntl+b "
     switch pane: cntl+b up/down/left/right
-    close split: $ exit
+    close split: $ exit or cntl+d
+    manage panesize: mouse(set -g mouse on)
 
 Manage windows:
     new window: cntl+b c

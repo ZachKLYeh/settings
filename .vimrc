@@ -3,6 +3,9 @@
 "colorscheme
 set background=light
 
+"statusbar
+set laststatus=2  
+
 "backup
 set noswapfile
 
@@ -27,8 +30,8 @@ set so=7
 set cursorline
 set number
 "set relativenumber
-hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=NONE
-hi CursorLineNr cterm=bold ctermfg=Black ctermbg=NONE
+hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=None
+hi CursorLineNr cterm=bold ctermfg=Black ctermbg=None
 
 "speedup
 set timeoutlen=1000
@@ -44,7 +47,6 @@ inoremap ( ()<Esc>i
 inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 inoremap [ []<Esc>i
-inoremap {<CR> {<CR>}<Esc>ko
 inoremap {{ {}<ESC>i
 inoremap {<CR> {<CR>}<Esc>ko
 
@@ -76,6 +78,5 @@ Plugin 'tomtom/tcomment_vim'
 
 call vundle#end()
 
-"statusbar
-set laststatus=2
-
+"NERDTree
+map <C-n> :NERDTreeToggle<CR>

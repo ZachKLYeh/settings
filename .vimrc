@@ -82,5 +82,5 @@ call vundle#end()
 map <C-n> :NERDTreeToggle<CR>
 
 "terminal keymap
-map <C-w>T :vertical botright term<CR>
-map <C-w>t :bot term<CR>
+map <C-w>T :vertical botright term ++close<CR>
+map <C-w>t :bot term ++close<CR>

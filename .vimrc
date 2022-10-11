@@ -29,9 +29,9 @@ set ruler
 set so=7
 set cursorline
 set number
-"set relativenumber
 hi LineNr cterm=bold ctermfg=DarkGrey ctermbg=None
 hi CursorLineNr cterm=bold ctermfg=Black ctermbg=None
+set nowrap
 
 "speedup
 set timeoutlen=1000
@@ -75,11 +75,15 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tomtom/tcomment_vim'
+Plugin 'vim-gitgutter'
 
 call vundle#end()
 
 "NERDTree
 map <C-n> :NERDTreeToggle<CR>
+
+"gitgutter
+highlight SignColumn guibg=DarkGrey ctermbg=None
 
 "terminal keymap
 map <C-w>T :vertical botright term ++close<CR>

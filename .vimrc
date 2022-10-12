@@ -86,5 +86,5 @@ map <C-n> :NERDTreeToggle<CR>
 highlight SignColumn guibg=DarkGrey ctermbg=None
 
 "terminal keymap
-map <C-w>T :vertical botright term ++close<CR>
-map <C-w>t :bot term ++close<CR>
+map <C-w>T :bot term ++close<CR>
+map <C-w>t :tab term ++close<CR>

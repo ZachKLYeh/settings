@@ -1,8 +1,11 @@
-Create venv:
+Python venv:
     python3 -m venv venv --prompt="your env name"
     
     this will create a venv folder called venv in your working directory
     and display "your env name" when activate
+
+virtualenv:
+    virtualenv venv --python=python3.9
 
 Activate venv:
     source venv/bin/activate
@@ -12,3 +15,4 @@ Deactivate venv:
 
 Remove venv:
     rmdir
+

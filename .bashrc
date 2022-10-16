@@ -26,7 +26,7 @@ case "$TERM" in
 		PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 		;;
 	*)
-		PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+		#	PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 		PS1='\[\033[1;32m\]\u@\h\[\033[00m\]:\[\033[1;33m\]\w\[\033[1;36m\]$(git_info)\[\033[00m\]\n\$ '
 		;;
 esac
@@ -89,13 +89,9 @@ alias rm='_rm'
 alias rrm='/bin/rm -i'	# real rm
 alias vi='vim'
 alias tx='tmux attach'
-alias tl='tmux ls'
-alias tk='tmux kill-session'
+alias ta='tmux a -t'
 alias scr='screen -D -R'
 alias m1='ssh merry01'
-alias m4='ssh merry04'
-alias m5='ssh merry05'
-alias m6='ssh merry06'
 #
 alias ptt='ssh bbsu@ptt.cc'
 #
@@ -166,3 +162,7 @@ export PERL_MM_OPT="INSTALL_BASE=/usr/local/lib/perl5";
 export PERL5LIB="/usr/local/lib/perl5/lib/perl5/i486-linux-gnu-thread-multi:/usr/local/lib/perl5/lib/perl5";
 export PATH="/usr/local/lib/perl5/bin:$PATH";
 export TERM="xterm-256color"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

@@ -16,6 +16,7 @@ Splits:
 
 Tabs:
     file tab: $tabe.
+    empty tab: $tabe
     move tab: $tabmove (number)
     terminal tab: $tab term
     next tab: g + t
@@ -46,6 +47,8 @@ Normal mode:
     jump to end: G
     center line: zz
     jump to line: G(line number)
+    move down half screen: cntl+d
+    move up half screen: cntl+u
 
 Insert mode:
     enter: i
@@ -68,7 +71,6 @@ Nerd tree:
     refresh: r or R
     back to nerdtree: e.
     toggle nerdtree bar: cntl+n
-    open file: o
     open file in new tab: t
     open file in new hor split: i
     open file in new vert split: s

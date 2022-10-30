@@ -14,6 +14,8 @@ Pane in a window:
 Manage windows:
     new window: cntl+b c
     switch window: cntl+b numberofshell
+    next window: cntl+b n
+    prev window: cntl+b p
     rename window: cntl+b ,
 
 Session:

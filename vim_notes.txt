@@ -49,6 +49,8 @@ Normal mode:
     jump to line: G(line number)
     move down half screen: cntl+d
     move up half screen: cntl+u
+    move right z+L
+    move left z+H
 
 Insert mode:
     enter: i
